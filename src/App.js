@@ -20,7 +20,7 @@ function App() {
   return (
     <div className="App container">
       <Header handleSubmit={handleSubmit} />
-      <Item searchTerm={window.location.hash.replace('#', '') || 'pet'}/>
+      <Item searchTerm={window.location.hash.replace('#', '') || 'mountain'}/>
     </div>
   );
 }
