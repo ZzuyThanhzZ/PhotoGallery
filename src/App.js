@@ -1,4 +1,4 @@
-import {useEffect, useContext} from 'react'
+import {useContext} from 'react'
 import './App.css';
 import Header from './components/Header/Header'
 import Item from './components/Item'
